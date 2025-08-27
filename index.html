@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+
+    <script type="text/javascript" src="./scripts/index.js" defer></script>
+    <title>Healthy Bites</title>
+</head>
+
+<body>
+    <div>
+        <nav>
+            <a href="index.html"><i class="fas fa-house"></i>Home</a>
+            <a href="about.html"><i class="fas fa-user"></i> About</a>
+            <a href="contact.html"><i class="fas fa-envelope"></i>Contcat</a>
+            <a href="blog.html"><i class="fas fa-blog"></i>Blog</a>
+        </nav>
+    </div>
+
+    <div>
+        <h1 id="heading">Welcome To Healthy Bites</h1>
+        <p>Discover delicious, nutritious, and easy-to-make recipes that fuel your body and delight your taste buds.
+            Whether you’re looking for quick breakfasts, wholesome lunches, or satisfying dinners, our healthy recipes
+            focus on fresh ingredients, balanced flavors, and mindful eating.
+
+            From vibrant salads packed with vitamins to hearty soups and guilt-free desserts, each recipe is crafted to
+            help you maintain a healthy lifestyle without sacrificing flavor. Join us on a journey to better eating, one
+            bite at a time!</p>
+    </div>
+
+    <div id="accessibility-toolbar">
+        <label>Dark mode or Light mode:</label>
+        <button id="toggle" onclick="toggleMode()">Toggle</button>
+        <label>Font Size and color:</label>
+        <button onclick="changeFontSize('small')">small</button>
+        <button onclick="changeFontSize('medium')">medium</button>
+        <button onclick="changeFontSize('large')">large</button>
+        <label for="fontColorPicker">Font Color:</label>
+        <input type="color" id="fontColorPicker" onchange="changeFontColor(this.value)" />
+    </div>
+</body>
+
+</html>

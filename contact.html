@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script type="text/javascript" src="./scripts/contcat.js" defer></script>
+    <title>Contact</title>
+</head>
+
+<body>
+    <div>
+        <nav>
+            <a href="index.html"><i class="fas fa-house"></i>Home</a>
+            <a href="about.html"><i class="fas fa-user"></i> About</a>
+            <a href="contact.html"><i class="fas fa-envelope"></i>Contcat</a>
+            <a href="blog.html"><i class="fas fa-blog"></i>Blog</a>
+        </nav>
+    </div>
+    <h1>Contact</h1>
+    <div id="contact">
+
+        <form id="emailForm">
+            <label for="mailto">Mail To:</label>
+            <input type="email" placeholder="meghana.vinakota@version1.com" id="mailto" name="mailto" required />
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required />
+
+            <label for="body">Message:</label>
+            <textarea id="body" name="body" rows="5" required></textarea>
+
+            <button type="button"><a id="mail"
+                    href="mailto:meghana.vinakota@version1.com?cc=vinakotameghana@gmail.com&bcc=blind@example.com&subject=Hello.....&body=Hi Healthy Bites Team,">Send
+                    Email</a></button>
+
+
+        </form>
+    </div>
+</body>
+
+</html>
